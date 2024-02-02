@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "simple_crud",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "run -d chrome --web-browser-flag '--disable-web-security'"
+            ]
+        },
+        {
+            "name": "Chrome debug",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-browser-flag",
+                "--disable-web-security"
+            ]
+        },
+        {
+            "name": "simple_crud (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "simple_crud (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
